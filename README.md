@@ -1,13 +1,14 @@
 # Nettoyage du code html et mise en forme css
-## Rendu
+## Rendu :
+###  [Lien vers le rendu](https://lahuts.github.io/faq/)
 ![test](asset/faq.png)
-## Html 
+## Html :
 - Nettoyage du code html , afin d'avoir un balisage sémantique
 convenable.
-## Css
+## Css :
 - Réalisation de la css à partir des classes fournis au préalable sur le document html.
 
-## JavaScript
+## JavaScript :
 - Réalisation du JavaScript afin de pouvoir cliquer sur un le bouton + est d'afficher son contenu .
 
 ## Note : 
