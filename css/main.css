@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+html{
+    background-color: #2b2a33;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 3.5rem;
+    margin :3.5rem;
+}
+.container-faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.8rem;
+}
+.questions{
+    width: 100%;
+    max-width: 60rem;
+}
+.container-faq>.questions>.visible-pannel{
+    display: flex;
+    background-color: #fff;
+    border-radius: 1rem;
+    color: #2b2a33;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+.visible-pannel h2{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+.visible-pannel img{
+    max-width: 2rem;
+    margin-right: 1rem;
+}
+
+.toggle-pannel{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.toggle-on{
+    display: block;
+    margin: 2rem;
+    color: #f0f0f0;
+    transition: 0.8s all ease-in-out ;
+}
+.toggle-on>h3{
+    font-size: 2rem;
+}
+.toggle-on>p{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 2rem;
+}
+
