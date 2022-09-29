@@ -1,22 +1,22 @@
-document.addEventListener("DOMContentLoaded", e => {
-    let img = document.querySelectorAll(".visible-pannel");
-    let toggle = document.querySelectorAll(".toggle-pannel");
-    for(i = 0; i < img.length; i++) {
-        let u = {
-            d: i,
-            c: document.querySelectorAll(".visible-pannel img"),
-            b:true,
-            a: img[i].addEventListener("click",()=>{
-                if(u.b){
-                    toggle[u.d].setAttribute("class","toggle-on");
-                    u.c[u.d].src = "asset/remove.svg";
-                    u.b = false;
-                }else{
-                    toggle[u.d].setAttribute("class","toggle-pannel");
-                    u.c[u.d].src = "asset/cross.svg";
-                    u.b = true;
-                }
-            }),
+document.addEventListener("DOMContentLoaded", () => {
+  let panel = document.querySelectorAll(".visible-pannel");
+  let toggle = document.querySelectorAll(".toggle-pannel");
+  for (i = 0; i < panel.length; i++) {
+    let panels = {
+      index: i,
+      img: document.querySelectorAll(".visible-pannel img"),
+      onOff: true,
+      a: panel[i].addEventListener("click", () => {
+        if (panels.onOff) {
+          toggle[panels.index].setAttribute("class", "toggle-on");
+          panels.img[panels.index].src = "asset/remove.svg";
+          panels.onOff = false;
+        } else {
+          toggle[panels.index].setAttribute("class", "toggle-pannel");
+          panels.img[panels.index].src = "asset/cross.svg";
+          panels.onOff = true;
         }
-    }
+      }),
+    };
+  }
 });
