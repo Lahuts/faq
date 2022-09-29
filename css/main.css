@@ -74,10 +74,11 @@ header h1{
     line-height: 2.6rem;
 }
 footer {
+    background-color: #2b2a33;
     position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
-    margin: 2rem;
+    padding: 0.5rem;
 }
 
