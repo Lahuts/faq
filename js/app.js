@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", e => {
     let img = document.querySelectorAll("img");
     let pnl = document.querySelectorAll(".toggle-pannel");
     for(i = 0;i<img.length;i++){
-        let Itms = new ToggleItem(img[i], pnl[i],img.src);
+        let Itms = new ToggleItem(img[i], pnl[i]);
     }
 
 });
