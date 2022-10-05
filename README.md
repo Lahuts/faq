@@ -20,3 +20,6 @@ convenable.
  - Roboto light 300 disponible sur : [Google Fonts](https://fonts.google.com/specimen/Roboto?query=roboto)
 
  ![Roboto](asset/fonts.png)
+
+## W3C Validator
+[W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Flahuts.github.io%2Ffaq%2F)
